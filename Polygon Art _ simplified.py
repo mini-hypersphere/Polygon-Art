@@ -177,7 +177,7 @@ for I in range(images):
 
     
     # Extra plot for color blending and fun :)
-    ax.scatter( 13*x[::3] - 11*y[::3], x[::3]*np.cos(y[::3] - x[::3]), color= c2, s=mk )
+    ax.scatter( 13*x[::3] - 11*y[::3], x[::3]*np.cos(y[::3] - x[::3]), color= c3, s=mk )
 
     
     
