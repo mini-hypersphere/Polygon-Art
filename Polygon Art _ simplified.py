@@ -113,7 +113,7 @@ for I in range(images):
     # Image information
     folder   = 'Fractal Art'
     filename = f'Image#{I+1} (N={N}) Rand-ID: {np.random.randint(1,1000)}.png'
-    print(filename[:-3] + '  ', end=' ')
+    print(filename[:-4] + '  ', end=' ')
     
     L = 40    
     fig, ax = plt.subplots( figsize=[L,L] )
