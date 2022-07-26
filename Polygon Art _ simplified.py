@@ -181,7 +181,7 @@ for I in range(images):
 
     
     
-    # Saving Images
+    # Saving Images, the slashes should be changed if on windows
     fig.savefig( folder + '//' + filename)
     print('- Done')
     
