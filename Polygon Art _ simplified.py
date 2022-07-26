@@ -108,6 +108,8 @@ def makePoints(n=3):
 images = 10
 for I in range(images):
 
+    N = np.random.randint(3, 10) # Minimum value must be 3 
+    
     # Image information
     folder   = 'Fractal Art'
     filename = f'Image#{I+1} (N={N}) Rand-ID: {np.random.randint(1,1000)}.png'
@@ -118,8 +120,6 @@ for I in range(images):
     ax.axis('off')
     #ax.set_xlim(left=-1, right=1)
     #ax.set_ylim(bottom=-1, top=1)
-       
-    N = np.random.randint(3, 10) # Minimum value must be 3 
     
     # Generating points
     s1 = makePoints(n= (N+3) )
