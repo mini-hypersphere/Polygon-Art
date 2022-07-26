@@ -119,7 +119,7 @@ for I in range(images):
     #ax.set_xlim(left=-1, right=1)
     #ax.set_ylim(bottom=-1, top=1)
        
-    N = np.random.randint(10, 15) # Minimum value must be 3 
+    N = np.random.randint(3, 10) # Minimum value must be 3 
     
     # Generating points
     s1 = makePoints(n= (N+3) )
